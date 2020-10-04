@@ -1,15 +1,22 @@
+import userEvent from '@testing-library/user-event';
 import React, { Component } from 'react'
 
 export class DealsComp extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            newPost: null,
-            dealsPosted: this.dealsPosted
+            deal: {
+                link: this.link,
+                description: this.description,
+                discount: this.discount,
+                dealType: this.dealType,
+                dealPrice: this.dealPrice
+            },
+            dealPost: this.deal
         };
       }
-      dealsPosted(link, description, discount, dealType, dealPrice) {
-        this.setState({ dealPosted: this.newPost });
+      dealPost(link, description, discount, dealType, dealPrice) {
+        this.setState({ deal: this.dealPost });
       }
     render() {
         return (
