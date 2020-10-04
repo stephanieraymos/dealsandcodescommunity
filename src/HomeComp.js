@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Deals from './DealsComp'
+import DealsComp from './DealsComp'
 
 export class HomeComp extends Component {
     render() {
         return (
             <div>
-                <Deals />
+                <DealsComp />
             </div>
         )
     }
