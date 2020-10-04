@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import SellerTerms from './SellerTerms';
+import HomeComp from './HomeComp';
 
 function App() {
   return (
-    <SellerTerms />
+    <HomeComp />
   );
 }
 
