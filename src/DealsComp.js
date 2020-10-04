@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export class DealsComp extends Component {
     constructor(props) {
-        super(props);
+        super();
         this.state = {
             deal: {
                 link: this.link,
