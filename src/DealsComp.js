@@ -13,8 +13,8 @@ const Deal = ({link, image, title, admin, discount}) => {
             <p>{link}</p>
             <img src={image} alt="Deal"/>
             <h2>{title}</h2>
-            <p>Posted By: {admin}</p>
             <p>Total discount: {discount}%</p>
+            <p>Posted By: {admin}</p>
         </section>
     )
 }
