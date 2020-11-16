@@ -4,7 +4,7 @@ import { render } from 'react-dom'
 
 const Deal = ({link, title, admin, discount}) => {
     return(
-        <section>
+        <section className="deal-section">
             <p>{link}</p>
             <h2>{title}</h2>
             <p>Posted By: {admin}</p>
