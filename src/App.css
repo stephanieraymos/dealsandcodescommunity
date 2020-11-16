@@ -21,3 +21,8 @@ img {
   width: 120px;
   height: 120px;
 }
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid #000;
+}

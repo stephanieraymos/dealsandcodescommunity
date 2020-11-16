@@ -22,6 +22,7 @@ const Deal = ({link, image, title, admin, discount}) => {
 const DealsComp = () => {
   return (
     <div>
+        <h1 className="header">DEALS:</h1>
         <Deal 
             link="Link"
             image={bottle}
