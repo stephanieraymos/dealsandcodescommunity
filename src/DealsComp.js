@@ -5,7 +5,7 @@ import { render } from 'react-dom'
 const Deal = ({link, title, admin, discount}) => {
     return(
         <section>
-            <p>Link will be here{link}</p>
+            <p>{link}</p>
             <h2>{title}</h2>
             <p>Posted By: {admin}</p>
             <p>Total discount: {discount}%</p>
@@ -21,6 +21,18 @@ const DealsComp = () => {
             title="Water Bottle"
             admin="Stephanie Raymos"
             discount={50}
+        />
+        <Deal 
+            link="Link"
+            title="Yoga Mat"
+            admin="Audie Raymos"
+            discount={60}
+        />
+        <Deal 
+            link="Link"
+            title="Kitchen Spatula Set"
+            admin="Stephanie Raymos"
+            discount={75}
         />
     </div>
   )
