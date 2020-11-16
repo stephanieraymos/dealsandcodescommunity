@@ -1,8 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(240, 240, 156);
+}
+
 .App {
   text-align: center;
 }
 
 .deal-section {
   border-bottom: black 1px solid;
-
+  text-align: center;
 }
+
