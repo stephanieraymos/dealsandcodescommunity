@@ -12,9 +12,20 @@ body {
   text-align: center;
 }
 
-.deal-section {
-  border-bottom: black 1px solid;
+.deal-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+
+}
+.deal {
+  flex: 33.33%;
+  border: black 1px solid;
   text-align: center;
+  background-color: rgb(160, 240, 184);
+  width: 20%;
+  margin: 3px;
+  /* flex-wrap: wrap; */
 }
 
 img {
