@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
-import bottle from "./img/bottle.jpg";
-import mat from "./img/mat.jpg";
-import ss from "./img/ss.jpg";
-import ts from "./img/ts.jpg";
+import bottle from "../img/bottle.jpg";
+import mat from "../img/mat.jpg";
+import ss from "../img/ss.jpg";
+import ts from "../img/ts.jpg";
 
 const Deal = ({ link, image, title, admin, discount }) => {
     const moreInfo = () => {
@@ -25,11 +25,10 @@ const Deal = ({ link, image, title, admin, discount }) => {
 const DealsComp = () => {
   return (
     <>
-      <h1 className="header">DEALS:</h1>
+      <h1 className="header">Deals:</h1>
       <div className="deal-container">
         <Deal
           link="Amazon"
-
           image={bottle}
           title="Water Bottle"
           admin="Stephanie Raymos"
