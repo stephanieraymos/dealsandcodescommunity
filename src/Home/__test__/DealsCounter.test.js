@@ -16,3 +16,17 @@ test("Input contains initial value of 1", () => {
 
   expect(inputEl.value).toBe("1");
 })
+
+test("Add button renders with +", () => {
+  const { getByTestId } = render(<DealsCounter />);
+  const addBtn = getByTestId("add-btn");
+
+  expect(addBtn.textContent).toBe("+");
+})
+
+test("Add button renders with -", () => {
+  const { getByTestId } = render(<DealsCounter />);
+  const minusBtn = getByTestId("minus-btn");
+
+  expect(minusBtn.textContent).toBe("-");
+})
