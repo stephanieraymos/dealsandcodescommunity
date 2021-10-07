@@ -4,7 +4,7 @@ import Deals from "./Deals"
 const Home = () => {
   return (
     <div>
-      <h1 data-testId="header">Test</h1>
+      <h1 data-testid="header">Test</h1>
       <Deals />
     </div>
   );
