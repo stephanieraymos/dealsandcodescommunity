@@ -13,4 +13,11 @@ test("Header renders with correct text", () => {
   expect(headerEl.textContent).toBe("Test");
 });
 
+test("Link goes to deals counter", () => {
+    const { getByTestId } = render(<Home />);
+    const linkEl = getByTestId("counter-link");
+    
+    expect(linkEl.getAttribute("href")).toBe("/deals-counter");
+})
+
 

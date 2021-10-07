@@ -1,18 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom"
-import Deals from "./Deals"
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import Deals from "./Deals";
 
 const Home = () => {
   return (
     <div>
       <h1 data-testid="header">Test</h1>
-      <Link to="deals-counter">Deals Count</Link>
+      <Router>
+        <Link data-testid="counter-link" to="deals-counter">
+          Deals Count
+        </Link>
+      </Router>
       <Deals />
     </div>
   );
-}
+};
 
 export default Home;
-
-
-
