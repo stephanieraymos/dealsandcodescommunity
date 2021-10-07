@@ -12,3 +12,5 @@ test("Header renders with correct text", () => {
   // expect(headerEl).toHaveTextContent("Deals");
   expect(headerEl.textContent).toBe("Test");
 });
+
+
