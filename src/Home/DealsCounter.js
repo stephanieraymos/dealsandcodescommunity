@@ -9,6 +9,7 @@ const DealsCounter = () => {
       <button data-testid="add-btn">+</button>
       <button data-testid="minus-btn">-</button>
       <input
+        className="text-center"
         type="number"
         data-testid="input"
         value={inputVal}
