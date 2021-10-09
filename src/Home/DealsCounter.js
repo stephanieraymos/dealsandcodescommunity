@@ -6,7 +6,6 @@ const DealsCounter = () => {
   return (
     <div>
       <h2 data-testid="deal-counter">{counterVal}</h2>
-      <button data-testid="add-btn">+</button>
       <button data-testid="minus-btn">-</button>
       <input
         className="text-center"
@@ -15,6 +14,7 @@ const DealsCounter = () => {
         value={inputVal}
         onChange={(e) => setInputVal(e.target.value)}
       />
+      <button data-testid="add-btn">+</button>
     </div>
   );
 };
