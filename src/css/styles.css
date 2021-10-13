@@ -25,6 +25,7 @@ body {
 /* Individual deals box */
 /* line 35, src/scss/styles.scss */
 .deal {
+  flex: 0 0 33.33%;
   border: black 1px solid;
   width: 25em;
   text-align: center;
