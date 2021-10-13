@@ -1,3 +1,13 @@
+$bg-color: #351C2B; // Dark purple
+$blue: #065A82; // Blue sapphire
+$green: #667761; // Army green
+$yellow: #FFF8C2; // Lemon
+$lavender: #E0D6FF; // Lavender
+$light-color: #fff;
+$border-color: #ddd;
+$ff-primary: "Poppins", sans-serif;
+
+
 *,
 *::before,
 *::after {
@@ -18,7 +28,7 @@ body {
 .deal-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  background-color: orange;
   justify-content: center;
 }
 /* Individual deals box */
