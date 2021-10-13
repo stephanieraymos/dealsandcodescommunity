@@ -8,7 +8,7 @@
 /* line 18, src/scss/styles.scss */
 body {
   margin: 0;
-  background-color: #f0f09c; }
+  background-color: #FFF8C2; }
 
 /* line 23, src/scss/styles.scss */
 .App {
@@ -19,38 +19,38 @@ body {
 .deal-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: orange;
+  background-color: #351C2B;
   justify-content: center; }
 
 /* Individual deals box */
 /* line 35, src/scss/styles.scss */
 .deal {
-  flex: 33.33% 1;
   border: black 1px solid;
+  width: 25em;
   text-align: center;
-  background-color: #a0f0b8;
-  max-width: fit-content;
+  background-color: #E0D6FF;
   padding: 30px 30px 15px 30px;
   margin: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
 
-/* line 46, src/scss/styles.scss */
+/* line 48, src/scss/styles.scss */
 img {
-  width: 100%;
-  max-width: 350px;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
   border: 1px solid #e8e8e8; }
 
-/* line 52, src/scss/styles.scss */
+/* line 55, src/scss/styles.scss */
 .header {
   text-align: center;
   border-bottom: 1px solid #000; }
 
-/* line 56, src/scss/styles.scss */
+/* line 59, src/scss/styles.scss */
 .text-center {
   text-align: center; }
 
 /* For Rectangle Dotted box */
-/* line 61, src/scss/styles.scss */
+/* line 64, src/scss/styles.scss */
 .deals-coupon {
   border: 2px dashed #000;
   padding: 3px 3px 5px 12px;
@@ -60,7 +60,7 @@ img {
   margin: 0 auto;
   margin-bottom: 15px; }
 
-/* line 71, src/scss/styles.scss */
+/* line 74, src/scss/styles.scss */
 .deals-coupon:hover {
-  border: 2px solid #dd7127;
+  border: 2px solid #351C2B;
   text-decoration: none; }

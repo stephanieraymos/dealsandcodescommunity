@@ -17,7 +17,7 @@ $ff-primary: "Poppins", sans-serif;
 
 body {
   margin: 0;
-  background-color: rgb(240, 240, 156);
+  background-color: $yellow;
 }
 
 .App {
@@ -28,24 +28,27 @@ body {
 .deal-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: orange;
+  background-color: $bg-color;
   justify-content: center;
 }
 /* Individual deals box */
 .deal {
-  flex: 33.33% 1;
+  // flex: 33.33% 1;
+  // flex: 0 auto;
   border: black 1px solid;
+  width: 25em;
   text-align: center;
-  background-color: rgb(160, 240, 184);
-  max-width: fit-content;
+  background-color: $lavender;
+  // max-width: max-content;
   padding: 30px 30px 15px 30px;
   margin: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 img {
-  width: 100%;
-  max-width: 350px;
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
   border: 1px solid #e8e8e8;
 }
 
@@ -69,6 +72,6 @@ img {
 }
 
 .deals-coupon:hover {
-  border: 2px solid #dd7127;
+  border: 2px solid $bg-color;
   text-decoration: none;
 }
